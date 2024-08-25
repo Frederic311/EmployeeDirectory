@@ -2,7 +2,7 @@
 <h2>✨EmployeeDirectory✨
 </h2>
 
-<h3>Visit <a href="https:// github/Frederic311/Frederic311"> My Profile </a> or contact me on </h3></b>
+<h3>Visit <a href="https://github.com/Frederic311"> My Profile </a> or contact me on </h3></b>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/frederic)
 
@@ -14,7 +14,7 @@ It is divided into the admin and user sides. The admin only can add professional
  
 <h3>🔥Languages and Utilities used</h3></br>
 
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Adobe XD](https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Adobe XD](https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) Local Storage
 
 <h3>🍃Environment used</h3></br>
 <ul>
@@ -28,7 +28,7 @@ It is divided into the admin and user sides. The admin only can add professional
 <div><img src="https://i.imgur.com/cOc3nA7.png" alt="landing page" width="80%" height="80%"/> <ul><li>Admin professionals management page</li></ul></div>
 
 
-<h3>Visit <a href="https:// github/Frederic311/Frederic311"> My Profile </a> or contact me on </h3></b>
+<h3>Visit <a href="https://github.com/Frederic311"> My Profile </a> or contact me on </h3></b>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/frederic)
 

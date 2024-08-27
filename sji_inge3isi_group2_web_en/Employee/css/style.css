@@ -1,0 +1,278 @@
+/* Font setup */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+/*Colour Setup*/
+:root {
+    --primary: #9844eb;
+    --blackbooth: #212429;
+    --black: #000000;
+    --grey: #d3d4db;
+    --white: #ffffff;
+    --body: #212429;
+
+}
+
+.navbar {
+    background-color: var(--blackbooth) !important;
+}
+
+th {
+    background-color: var(--primary) !important;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--blackbooth);
+}
+
+.btn {
+    border-radius: 10px;
+    background-color: var(--primary);
+    color: var(--white);
+    border-color: var(--primary);
+
+
+}
+
+.btn:hover {
+    background-color: var(--black);
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn:focus {
+    background-color: var(--black);
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn:active {
+    background-color: var(--black);
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+
+.navbar {
+    font-family: "Poppins", sans-serif;
+    padding: 15px;
+}
+
+.form-control {
+    border-width: 1px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 3px solid var(--primary);
+}
+
+/* tabs-pills style */
+
+.nav-pills {
+    background-color: var(--primary);
+    font-family: "Poppins", sans-serif;
+
+}
+
+.nav-link {
+    color: var(--white);
+}
+
+.nav-link:hover {
+    color: var(--black)
+}
+
+
+.nav-link:active {
+    background-color: var(--blackbooth) !important;
+    color: var(--primary) !important;
+    border-radius: 0px;
+    outline: none;
+}
+
+
+.nav-link:focus {
+    background-color: var(--blackbooth) !important;
+    color: var(--primary) !important;
+    border-radius: 0;
+}
+
+.btn:active {
+    background-color: var(--primary) !important;
+}
+
+
+/*bon*/
+table tr td {
+    vertical-align: middle;
+}
+
+td button {
+    margin: 5px;
+}
+
+td button i {
+    font-size: 20px;
+}
+
+
+.modal-header {
+    background: var(--primary);
+    color: var(--black);
+}
+
+.modal-body form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.modal-body form .imgholder {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.imgholder .upload {
+    position: absolute;
+    bottom: 0;
+    left: 10;
+    width: 100%;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.3);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.upload i {
+    color: #fff;
+    font-size: 35px;
+}
+
+.imgholder:hover .upload {
+    display: flex;
+}
+
+.imgholder .upload input {
+    display: none;
+}
+
+.modal-body form .inputField {
+    flex-basis: 68%;
+    border-left: 5px groove var(--primary);
+    padding-left: 20px;
+}
+
+form .inputField>div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+form .inputField>div label {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#userForm form .inputField>div label::after {
+    content: "*";
+    color: red;
+}
+
+form .inputField>div input {
+    width: 75%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid var(--primary);
+}
+
+.modal-footer .submit {
+    font-size: 18px;
+}
+
+
+#readData form .inputField>div input {
+    color: #000;
+    font-size: 18px;
+}
+
+.row {
+    color: var(--body);
+}
+
+.col-12 {
+    color: var(--body);
+}
+
+/*blured table*/
+#blur {
+    background-color: rgba(255, 255, 255, 0) !important;
+
+}
+
+/*error message*/
+.error-message {
+    color: red;
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+    display: none;
+    /* Initially hide the error message */
+}
+
+.error-message.active {
+    display: block;
+    /* Show the error message when necessary */
+
+}
+
+.table-sm {
+    overflow-y: hidden
+}
+
+h2 {
+    color: var(--white);
+}
+
+/*scrollable table*/
+
+#scrollable {
+    overflow-y: scroll;
+    max-height: 700px;
+    background-color: rgba(255, 255, 255, 0) !important;
+    box-shadow: 0px 2px 5px var(--primary) !important;
+}
+
+/* This applies to the whole webpage scrollbar css */
+::-webkit-scrollbar {
+    width: 1px;
+    /* Width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Color of the track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    /* Color of the handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    /* Color of the handle when you hover over it */
+}

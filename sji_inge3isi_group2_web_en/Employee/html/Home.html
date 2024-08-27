@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professionals Lists</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="shortcut icon" href="../images/logo2.svg" type="image/x-icon">
+  <!--Boostrap css-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!--Bootstrap 5 icons CDN-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!--Font awesome cdn-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!--My CSS-->
+  <link rel="stylesheet" href="../css/Home.css">
+</head>
+
+<body>
+  <header class="header_part fixed-top">
+    <nav class="navbar bg-body-tertiary justify-content-between" data-bs-theme="dark">
+      <a class="navbar-brand" href="../html/Home.html">
+        <img src="../images/logo2.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        Employee_Directory
+      </a>
+      </a>
+      <form class="d-flex" role="search">
+        <input id="searchInput" class="form-control me-2 w-750" type="search" placeholder="Search by name/Address"
+          aria-label="Search">
+
+      </form>
+      <a href="../Admin/login.html"><button id="admin" class="btn btn-outline-success me-2" type="button">Admin
+          page</button></a>
+    </nav>
+    <!--Types of sectors section-->
+    <ul class="nav nav-pills nav-fill">
+      <li class="nav-item">
+        <button class="nav-link">All</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link">Banks</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link">Commerce</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link">Cabaret</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link">Health</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link">Hotel</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link">Market</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link">Supermarket</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link">Restaurant</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link">Tourism</button>
+      </li>
+    </ul>
+  </header>
+  <br>
+
+
+  <div class="container py-5" id="contain">
+
+    <h1 class="text-center animated">Welcome to our Employee Selection</h1>
+
+    <div id="cardContainer" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5 wrapper">
+      <div class="shape-1"></div>
+      <div class="shape-2"></div>
+      <div class="col">
+
+
+        <div class="card h-100" onclick="showCardDetails()">
+          <img src="" class="card-img-top" alt="..." id="img">
+          <div class="card-body">
+            <h5 class="card-title" id="name"></h5>
+            <p class="card-text" id="sector"></p>
+            <p class="card-text" id="Activity"></p>
+            <p class="card-text" id="Phone number"></p>
+            <p class="card-text" id="region"></p>
+            <p class="card-text" id="email" style="display: none;"></p>
+            <p class="card-text" id="address" style="display:none"></p>
+
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>></script>
+  <script src="../js/sweetalert.js"></script>
+  <script src="../js/Home.js"></script>
+  <script src="../js/sign_up.js"></script>
+
+</body>
+
+</html>

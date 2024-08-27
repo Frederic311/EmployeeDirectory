@@ -1,0 +1,240 @@
+/* Font setup */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+/*Colour Setup*/
+:root {
+    --primary: #9844eb;
+    --blackbooth: #212429;
+    --black: #000000;
+    --grey: #d3d4db;
+    --white: #ffffff;
+    --body: #212429;
+
+}
+
+.navbar {
+    background-color: var(--blackbooth) !important;
+}
+
+th {
+    background-color: var(--primary) !important;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--blackbooth);
+    color: var(--white);
+
+
+
+}
+
+.btn {
+    border-radius: 10px;
+    background-color: var(--primary);
+    color: var(--white);
+    border-color: var(--primary);
+
+
+}
+
+.btn:hover {
+    background-color: var(--black);
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn:focus {
+    background-color: var(--black);
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn:active {
+    background-color: var(--black);
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+
+.navbar {
+    font-family: "Poppins", sans-serif;
+    padding: 15px;
+}
+
+.form-control {
+    border-width: 1px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 3px solid var(--primary);
+}
+
+/* tabs-pills style */
+
+.nav-pills {
+    background-color: var(--primary);
+    font-family: "Poppins", sans-serif;
+
+}
+
+.nav-link {
+    color: var(--white);
+}
+
+.nav-link:hover {
+    color: var(--black)
+}
+
+
+.nav-link:active {
+    background-color: var(--blackbooth) !important;
+    color: var(--primary) !important;
+    border-radius: 0px;
+    outline: none;
+}
+
+
+.nav-link:focus {
+    background-color: var(--blackbooth) !important;
+    color: var(--primary) !important;
+    border-radius: 0;
+}
+
+.btn:active {
+    background-color: var(--primary) !important;
+}
+
+/*background of body */
+
+body {
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    background-image: url("../images/bg.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+
+}
+
+/*Cards CSS*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*body{
+        background-color: #f9f6f2;
+}*/
+.card-img-top {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    padding: 20px;
+    object-fit: cover;
+    filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.6));
+}
+
+.card {
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.06);
+    border-radius: 10px;
+    box-shadow: 20px 20px 25px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-text {
+    color: #d5d5d5 !important;
+    font-family: "Poppins", sans-serif;
+}
+
+.card-title {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+}
+
+.card-body {
+    padding: 20px;
+    margin-top: -15px;
+    text-align: center;
+}
+
+.btn-primary {
+    border-radius: 50px;
+    width: 120px;
+}
+
+.btn-primary:hover {
+    background-color: black;
+    border: none;
+}
+
+
+#contain {
+    margin-top: 120px;
+}
+
+/*animation*/
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.card {
+    animation: fadeIn 1s ease-in;
+    z-index: 100;
+}
+
+#cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.animated {
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    /* Animate only once */
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.circular-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.swal-glassy {
+    background-color: rgba(255, 255, 255, 0.06);
+    border-radius: 10px;
+    box-shadow: 20px 20px 25px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
+    color: #ffffff;
+}
+
+

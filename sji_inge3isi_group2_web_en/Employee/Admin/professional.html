@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.9">
+  <title>Directory of professionals</title>
+  <link rel="shortcut icon" href="../images/logo2.svg" type="image/x-icon">
+  <!--Boostrap css-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!--Bootstrap 5 icons CDN-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!--Font awesome cdn-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!--My CSS-->
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <!--Navbar section-->
+
+  <!-- Content here -->
+
+  <header class="header_part">
+    <nav class="navbar bg-body-tertiary" data-bs-theme="dark">
+      <a class="navbar-brand" href="../html/Home.html">
+        <img src="../images/logo2.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        Employee_Directory
+      </a>
+      </a>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2 w-750" type="search" placeholder="Look for a professional" aria-label="Search">
+      </form>
+      <button id="admin" class="btn btn-outline-success me-2" type="button"
+        onclick="window.location.href='../html/home.html'">User page</button>
+    </nav>
+    <!--Types of sectors section-->
+    <ul class="nav nav-pills nav-fill">
+      <li class="nav-item">
+        <button class="nav-link">All</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link">Banks</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link">Commerce</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link">Cabaret</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link">Health</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link">Hotel</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link">Market</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link">Supermarket</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link">Restaurant</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link">Tourism</button>
+      </li>
+    </ul>
+  </header>
+  <br>
+  <!--Table for all the employees-->
+  <div id="scrollable" class="col-12   ">
+    <div id="blur" class="table-responsive shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+      <div class="row">
+        <div class="col-12">
+          <button class="btn btn-primary newUser" data-bs-toggle="modal" data-bs-target="#userForm">New User <i
+              class="bi bi-people"></i></button>
+        </div>
+
+        <table class="table-sm table-striped table-hover mt-3 text-center  table-dark">
+
+          <thead>
+            <tr>
+              <th>E.No</th>
+              <th>Picture</th>
+              <th>Name</th>
+              <th>Sector</th>
+              <th>Activity</th>
+              <th>Email</th>
+              <th>Phone</th>
+              <th>Region</th>
+              <th>Department</th>
+              <th>District</th>
+              <th>Neighbourhood</th>
+              <th>Precise Location</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+
+          <tbody id="data"></tbody>
+
+        </table>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Modal Form (form which is filled)-->
+  <div class="modal fade" id="userForm">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h4 class="modal-title">Fill the Form</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body">
+
+          <form action="#" id="myForm">
+
+            <div class="card imgholder">
+              <label for="imgInput" class="upload">
+                <input type="file" name="" id="imgInput">
+                <i class="bi bi-plus-circle-dotted"></i>
+              </label>
+              <img src="./image/Profile Icon.webp" alt="" width="200" height="200" class="img">
+            </div>
+
+            <div class="inputField">
+              <div>
+                <label for="name">Name:</label>
+                <input type="text" name="" id="name" required>
+              </div>
+              <div>
+                <label for="email">E-mail:</label>
+                <input type="email" name="" id="email" required>
+              </div>
+              <div>
+                <label for="phone">Phone:</label>
+                <input type="tel" name="" id="phone" minlength="9" maxlength="13" required>
+
+              </div>
+              <div id="error-message"></div>
+
+              <div>
+                <label for="name" style="padding-right: 42px;">Sector:</label>
+                <select class="form-select" aria-label="Default select example" id="Sector" required>
+                  <option value="">Select a Sector</option>
+                  <option value="Banks">Banks</option>
+                  <option value="Commerce">Commerce</option>
+                  <option value="Cabaret">Cabaret</option>
+                  <option value="Health">Health</option>
+                  <option value="Hotel">Hotel</option>
+                  <option value="Market">Market</option>
+                  <option value="Supermarket">Supermarket</option>
+                  <option value="Restaurant">Restaurant</option>
+                  <option value="Tourism">Tourism</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="name">Activity:</label>
+                <input type="text" name="" id="activity" required>
+              </div>
+
+
+              <div>
+                <label for="name" style="padding-right: 42px;">Region:</label>
+                <select class="form-select" aria-label="Default select example" id="Region" required>
+                  <option value="">Select Region</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="name" style="padding-right: 15px;">Department:</label>
+                <select class="form-select" aria-label="Default select example" id="Department" required>
+                  <option value="">Select Department</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="name" style="padding-right: 42px;">District:</label>
+                <select class="form-select" aria-label="Default select example" id="District" required>
+                  <option value="">Select District</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="name" style="padding-right: 15px;">Neighborhood:</label>
+                <select class="form-select" aria-label="Default select example" id="Neighborhood" required>
+                  <option value="">Select Neighborhood</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="name" style="padding-right: 40px;">Location:</label>
+                <select class="form-select" aria-label="Default select example" id="pLocation" required>
+                  <option value="">Select Location</option>
+                </select>
+              </div>
+
+            </div>
+
+          </form>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="submit" form="myForm" class="btn btn-primary submit">Submit</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!--Another section-->
+  <!--Read Data Modal (to read employee information)-->
+  <div class="modal fade" id="readData">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h4 class="modal-title">Profile</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body">
+
+          <form action="#" id="myForm">
+
+            <div class="card imgholder">
+
+              <img src="../images/Profile Icon.webp" alt="" width="200" height="200" class="showImg">
+            </div>
+
+            <div class="inputField">
+              <div>
+                <label for="name">Name:</label>
+                <input type="text" name="" id="showName" disabled>
+              </div>
+              <div>
+                <label for="email">E-mail:</label>
+                <input type="email" name="" id="showEmail" disabled>
+              </div>
+              <div>
+                <label for="phone">Phone:</label>
+                <input type="text" name="" id="showPhone" minlength="11" maxlength="11" disabled>
+              </div>
+
+              <div>
+                <label for="name">Sector:</label>
+                <input type="text" name="" id="ShowSector" disabled>
+              </div>
+
+              <div>
+                <label for="name">Activity:</label>
+                <input type="text" name="" id="Showactivity" disabled>
+              </div>
+
+
+              <div>
+                <label for="region">Region:</label>
+                <input type="text" name="" id="ShowRegion" disabled>
+              </div>
+
+              <div>
+                <label for="department">Department:</label>
+                <input type="text" name="" id="ShowDepartment" disabled>
+              </div>
+
+              <div>
+                <label for="districtt">District:</label>
+                <input type="text" name="" id="ShowDistrict" disabled>
+              </div>
+
+              <div>
+                <label for="neighborhood">Neighborhood:</label>
+                <input type="text" name="" id="ShowNeighborhood" disabled>
+              </div>
+
+              <div>
+                <label for="location">Location:</label>
+                <input type="text" name="" id="ShowLocation" disabled>
+              </div>
+
+            </div>
+
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="../js/script.js"></script>
+  <script src="../js/sweetalert.js"></script>
+
+</body>
+
+</html>

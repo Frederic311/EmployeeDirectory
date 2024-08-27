@@ -24,7 +24,7 @@ It is divided into the admin and user sides. The admin only can add professional
 
 <h3>📷Application walk-through</h3></br>
 <div><img src="https://i.imgur.com/cOc3nA7.png" alt="landing page" width="80%" height="80%"/> <ul><li>Landing Page</li></ul></div>
-<div><img src="https://imgur.com/a/ezvcNGW" alt="landing page" width="80%" height="80%"/> <ul><li>Professionals show-out</li></ul></div>
+<div><img src="https://i.imgur.com/KwpRW2d.jpeg" alt="landing page" width="80%" height="80%"/> <ul><li>Professionals show-out</li></ul></div>
 <div><img src="https://i.imgur.com/Mf8mjyR.png" alt="landing page" width="80%" height="80%"/> <ul><li>Admin professionals management page</li></ul></div>
 
 

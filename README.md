@@ -4,7 +4,7 @@
 
 <h3>Visit <a href="https://github.com/Frederic311"> My Profile </a> or contact me on </h3></b>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)]([https://linkedin.com/in/frederic](https://www.linkedin.com/in/fr%C3%A9d%C3%A9ric-olivier-onana-042569324?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fredericOnana)
 
 <h3>⚡Description</h3></br>
 This project is meant to show case various professionals and their information according to their sectors. If you are interested in a professional you also have the opportunity to contact the professional via e-mail.
@@ -30,5 +30,6 @@ It is divided into the admin and user sides. The admin only can add professional
 
 <h3>Visit <a href="https://github.com/Frederic311"> My Profile </a> or contact me on </h3></b>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)]([https://linkedin.com/in/frederic](https://www.linkedin.com/in/fr%C3%A9d%C3%A9ric-olivier-onana-042569324?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fredericOnana)
+
 
